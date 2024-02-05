@@ -1,3 +1,5 @@
+#the aim here is to filter the data (turnover, purchase_cost and orders) groupping by product (category_1) and by date (date_date column).
+
 WITH sales_daily AS (
   SELECT
     category_1,
